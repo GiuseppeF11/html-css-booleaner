@@ -1,38 +1,41 @@
+* {
+    margin: 0px;
+}
 
-#header-top{
+#header-top {
     background-image: url(img/pattern.png);
     background-size:contain;
     background-color:rgb(45, 142, 216);
 }
 
-#logo{
+#logo {
     margin-top: 30px;
     margin-left: 10px;
     width: 200px;
 }
 
-.intestazione{
+.intestazione {
     margin-bottom: 20px;
 }
 
-#titolo-articolo{
+#titolo-articolo {
     margin-bottom: 0px;
 }
 
-#autore-articolo{
+#autore-articolo {
     color: grey;
     font-weight: bold;
 }
 
-#nome-autore{
+#nome-autore {
     color:rgb(87, 169, 228);
 }
 
-#data{
+#data {
     font-weight: normal;
 }
 
-#fonti-foto{
+#fonti-foto {
     font-size: 13px;
 }
 
