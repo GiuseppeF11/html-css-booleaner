@@ -1,16 +1,33 @@
-*{
-    margin: 0px;
-    box-sizing: border-box;
-}
-header{
+
+#header-top{
     background-image: url(img/pattern.png);
     background-size:contain;
     background-color:rgb(45, 142, 216);
-    height: 50px;
 }
 
 #logo{
     margin-top: 30px;
     margin-left: 10px;
     width: 200px;
+}
+
+.intestazione{
+    margin-bottom: 20px;
+}
+
+#titolo-articolo{
+    margin-bottom: 0px;
+}
+
+#autore-articolo{
+    color: grey;
+    font-weight: bold;
+}
+
+#nome-autore{
+    color:rgb(87, 169, 228);
+}
+
+#data{
+    font-weight: normal;
 }
