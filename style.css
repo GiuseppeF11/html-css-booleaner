@@ -31,3 +31,67 @@
 #data{
     font-weight: normal;
 }
+
+#fonti-foto{
+    font-size: 13px;
+}
+
+.important {
+    background-color: yellow;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: rgb(25, 168, 220);
+    color: white;
+    text-align: left;
+}
+td {
+    width: 500px;
+}
+
+td, th {
+    border: 0;
+}
+
+.riga-pari {
+    background-color: rgb(111, 208, 238);
+}
+
+.riga-dispari {
+    background-color: rgb(201, 237, 237);
+}
+
+#interest {
+    color: grey;
+}
+
+#interest, .foto-footer-1, .foto-footer-2{
+    margin-top: 20px;
+}
+
+.foto-footer-1 {
+    background-image: url(img/monitor.jpg);
+    background-size:cover;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    width: 300px;
+    height: 200px;
+    
+}
+
+.foto-footer-2{
+    background-image: url(img/graph.jpg);
+    background-size:cover;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    width: 300px;
+    height: 200px;
+}
