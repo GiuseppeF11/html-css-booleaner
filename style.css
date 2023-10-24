@@ -1,11 +1,32 @@
+/* 
+    
+      GENERAL
+
+*/
+
 * {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 
+main, footer{
+    margin-left: 5px;
+}
+
+ul{
+    padding-left: 18px;
+}
+
+/* 
+
+     HEADER
+
+*/
 #header-top {
     background-image: url(img/pattern.png);
     background-size:contain;
-    background-color:rgb(45, 142, 216);
+    background-color:#2D8ED8;
+    background-position: center;
 }
 
 #logo {
@@ -14,21 +35,30 @@
     width: 200px;
 }
 
+/* 
+
+     MAIN
+
+*/
+
 .intestazione {
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
-#titolo-articolo {
-    margin-bottom: 0px;
+.sezione{
+    margin-bottom: 20px;
 }
 
-#autore-articolo {
+.grey-text {
     color: grey;
     font-weight: bold;
+    margin-bottom: 2px;
 }
 
 #nome-autore {
     color:rgb(87, 169, 228);
+    text-decoration: none;
 }
 
 #data {
@@ -45,10 +75,12 @@
 
 table {
     border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 thead {
-    background-color: rgb(25, 168, 220);
+    background-color: #1FA8E4;
     color: white;
     text-align: left;
 }
@@ -61,18 +93,19 @@ td, th {
 }
 
 .riga-pari {
-    background-color: rgb(111, 208, 238);
+    background-color: #B1E5F2;
 }
 
 .riga-dispari {
-    background-color: rgb(201, 237, 237);
+    background-color: #FFFFFF;
 }
 
-#interest {
-    color: grey;
-}
+ /* 
 
-#interest, .foto-footer-1, .foto-footer-2{
+      FOOTER
+
+ */
+footer, .foto-footer-1, .foto-footer-2{
     margin-top: 20px;
 }
 
